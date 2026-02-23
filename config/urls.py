@@ -20,6 +20,9 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.views.static import serve
 
+handler404 = 'api.views.custom_404' 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls'))
