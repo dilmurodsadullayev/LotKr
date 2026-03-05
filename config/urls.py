@@ -24,7 +24,7 @@ handler404 = 'api.views.custom_404'
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('adminmisanyo/', admin.site.urls),
     path('api/', include('api.urls'))
 
 ]
